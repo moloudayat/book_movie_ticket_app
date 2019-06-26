@@ -30,10 +30,7 @@ class Picker extends Component {
     render() {
         const { items, selectedValue } = this.props;
         const { isModalOpen } = this.state;
-        console.log('ddd selectedValue', selectedValue)
         const selected = items.find(item => item.value === selectedValue);
-        console.log('ddd selected', selected)
-        console.log('ddd items', items)
         return (
             <React.Fragment>
                 <Modal show={isModalOpen} position="center" close={this.toggleModal} width="50%" height="40%" boxStyle={styles.modal_inner_container}>
