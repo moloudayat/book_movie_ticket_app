@@ -13,6 +13,8 @@ class SignIn extends Component {
 
     signUpOnPress = () => this.props.navigation.navigate('SignUp');
 
+    currenMovieOnPress = () => this.props.navigation.navigate('CurrentMovie');
+
     // TODO: add toolbar
     render() {
         return (
@@ -30,6 +32,7 @@ class SignIn extends Component {
                         <Button
                             label="Sign In"
                             containerStyle={styles.button}
+                            onPress={this.currenMovieOnPress}
                         />
                     </View>
                     <Text style={styles.footer}>Don't have an account? <Text style={styles.signup} onPress={this.signUpOnPress}>Signup</Text></Text>
