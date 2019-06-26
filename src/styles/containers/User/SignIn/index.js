@@ -22,7 +22,7 @@ export default style = StyleSheet.create({
         backgroundColor: colors.card,
         elevation: 10,
         width: '100%',
-        height: '80%',
+        height: '50%',
         padding: 16,
     },
     username:{
@@ -42,7 +42,7 @@ export default style = StyleSheet.create({
         color: colors.text,
         fontWeight: '500',
     },
-    signin: {
+    signup: {
         color: colors.textButton,
     }
 });
