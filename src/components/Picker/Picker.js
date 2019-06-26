@@ -44,8 +44,8 @@ class Picker extends Component {
                 </Modal>
                 <TouchableOpacity onPress={this.toggleModal}>
                     <View style={styles.picker_container}>
-                        <Text style={styles.label}>{selected.label}</Text>
                         <Icon name="md-arrow-dropdown" size={styles.icon.fontSize} color={styles.icon.color} style={{ alignSelf: 'center' }} />
+                        <Text style={styles.label}>{selected.label}</Text>
                     </View>
                 </TouchableOpacity>
             </React.Fragment>

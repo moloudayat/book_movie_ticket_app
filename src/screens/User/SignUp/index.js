@@ -12,6 +12,9 @@ class SignUp extends Component {
         };
     }
 
+    signInOnPress=()=>this.props.navigation.navigate('SignIn');
+
+    // TODO: add toolbar
     render() {
         return (
             <View style={styles.container}>
@@ -33,12 +36,10 @@ class SignUp extends Component {
                             </View>
                             <Input
                                 label="Username"
-                                inputStyle={styles.inputRow}
                                 placeholder="Enter Username"
                             />
                             <Input
                                 label="Mobile Number"
-                                inputStyle={styles.inputRow}
                                 placeholder="Enter Mobile Number"
                                 picker
                                 items={countryCode}
@@ -46,20 +47,19 @@ class SignUp extends Component {
                             />
                             <Input
                                 label="Email"
-                                inputStyle={styles.inputRow}
                                 placeholder="Enter Email Address"
                             />
                             <Input
                                 label="Password"
-                                inputStyle={styles.inputRow}
                                 placeholder="Enter Password"
                             />
-                            <Button 
-                            label="Sign Up"
-                            containerStyle={styles.button}
+                            <Button
+                                label="Sign Up"
+                                containerStyle={styles.button}
                             />
                         </ScrollView>
                     </View>
+                    <Text style={styles.footer}>Already have an account? <Text style={styles.signin} onPress={this.signInOnPress}>Signin</Text></Text>
                 </View>
             </View>
         );
