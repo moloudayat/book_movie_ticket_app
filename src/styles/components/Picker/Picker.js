@@ -12,7 +12,7 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignContent: 'center',
         flexDirection: 'row',
-        paddingVertical: 16,
+        paddingVertical: 8,
         width: '60%',
         borderColor: '#e9e9e9',
         borderWidth: 1,
