@@ -44,5 +44,5 @@ export default style = StyleSheet.create({
     },
     signup: {
         color: colors.textButton,
-    }
+    },
 });

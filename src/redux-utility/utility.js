@@ -1,0 +1,1 @@
+export const stateAppend = (item, data, state) => ({ ...state, ...data, [item]: [...state[item], ...data[item]] });
