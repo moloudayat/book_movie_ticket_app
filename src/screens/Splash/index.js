@@ -11,7 +11,7 @@ class SplashComponent extends Component {
     }
 
     // TODO: add changeNavigator to redux
-    onPress = () => this.props.navigation.navigate('SignUp');
+    onPress = () => this.props.navigation.navigate('SignIn');
 
     // TODO: add trans
     // TODO: add lottie animation
