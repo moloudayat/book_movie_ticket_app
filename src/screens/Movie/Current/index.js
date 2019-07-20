@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, FlatList, Image } from 'react-native';
+import { View, Text, FlatList, Image, TouchableOpacity } from 'react-native';
 import imgs from '../../../unifiedResources/imgs';
 import Button from '../../../components/Button/Button';
 import styles from '../../../styles/containers/Movie/Current';
@@ -22,12 +22,17 @@ class CurrentMovies extends Component {
 
     keyExtractor = (item, index) => index.toString();
 
+    // TODO: add item
+    MovieClick = () => this.props.navigation.navigate('MovieDetails');
+    
     renderItem = ({ item }) => (
-        <View style={styles.itemCountainer}>
-            <Image source={imgs.placeholder} style={styles.image} />
-            <Text style={styles.text}>{item.name}</Text>
-            <Button label="Buy Tickets" labelStyle={{paddingVertical: 8,}}/>
-        </View>
+        <TouchableOpacity onPress={this.MovieClick}>
+            <View style={styles.itemCountainer}>
+                <Image source={imgs.placeholder} style={styles.image} />
+                <Text style={styles.text}>{item.name}</Text>
+                <Button label="Buy Tickets" labelStyle={{ paddingVertical: 8, }} />
+            </View>
+        </TouchableOpacity>
     );
 
     // TODO: add toolbar

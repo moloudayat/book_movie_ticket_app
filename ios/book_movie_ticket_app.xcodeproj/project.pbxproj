@@ -59,6 +59,7 @@
 		4B0CD829E0C8453C84B38CD5 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C06A0AF012AA4647A15FDF11 /* SimpleLineIcons.ttf */; };
 		738594FD8496453F80411780 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19B387BCB5A42E78BF3AA20 /* Zocial.ttf */; };
 		B8A4A690E0654EB4903FF671 /* libLottieReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6DCBA6D265413986A84F4B /* libLottieReactNative.a */; };
+		A513024865794C169B70D1B3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E63C5694E244E15BDC1DA3B /* Fontisto.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -389,6 +390,7 @@
 		F19B387BCB5A42E78BF3AA20 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		C073C51931B447BB9CD593EC /* LottieReactNative.xcodeproj */ = {isa = PBXFileReference; name = "LottieReactNative.xcodeproj"; path = "../node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		4D6DCBA6D265413986A84F4B /* libLottieReactNative.a */ = {isa = PBXFileReference; name = "libLottieReactNative.a"; path = "libLottieReactNative.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		4E63C5694E244E15BDC1DA3B /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -680,6 +682,7 @@
 				A460D69600A04401AA304741 /* Octicons.ttf */,
 				C06A0AF012AA4647A15FDF11 /* SimpleLineIcons.ttf */,
 				F19B387BCB5A42E78BF3AA20 /* Zocial.ttf */,
+				4E63C5694E244E15BDC1DA3B /* Fontisto.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1146,6 +1149,7 @@
 				676123DD0D7C4FBC85539350 /* Octicons.ttf in Resources */,
 				4B0CD829E0C8453C84B38CD5 /* SimpleLineIcons.ttf in Resources */,
 				738594FD8496453F80411780 /* Zocial.ttf in Resources */,
+				A513024865794C169B70D1B3 /* Fontisto.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
