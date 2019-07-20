@@ -7,9 +7,11 @@ const colors = {
     get border() { return this.gray },
     get placeholder() { return this.gray },
     get textButton() { return this.redOrenge },
-    get activeTintColor() { return this.redOrenge},
-    get inactiveTintColor() {return this.grayPurple},
-    get toastBackground() {return this.lightBlue},
+    get activeTintColor() { return this.redOrenge },
+    get inactiveTintColor() { return this.grayPurple },
+    get toastBackground() { return this.lightBlue },
+    get ballBackground() { return this.black },
+    get movieBackground() { return this.white },
 
     // pallete
     redOrenge: '#FE2E2E',
@@ -19,5 +21,6 @@ const colors = {
     gray: '#e7e6ea',
     grayPurple: "#645e6d",
     lightBlue: "#64B5F6",
+    black: "#000000",
 }
 export default colors;
