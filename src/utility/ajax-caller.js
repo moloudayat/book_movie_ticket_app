@@ -36,7 +36,7 @@ class AjaxCaller {
 
   handleResponse(result, successParser) {
     if (result.status === 200) {
-      return successParser ? successParser(result.data) : { data: result.data, state: result.state }
+      return successParser ? successParser(result.data.data) : { data: result.data.data, state: result.data.state }
     }
 
     const err = new Error();
